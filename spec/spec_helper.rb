@@ -99,3 +99,9 @@ Puppet::Type.type(:file).provide(:windows).class_eval do
     end
   end
 end
+
+### Uncomment and the tests start working
+#Puppet::Type.type(:file).provide(:windows) do
+#  confine :operatingsystem => :windows
+#  has_feature :manages_symlinks
+#end
