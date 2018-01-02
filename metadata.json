@@ -1,0 +1,21 @@
+{
+  "name": "windows_manages_symlinks_failure",
+  "version": "0.0.1",
+  "author": "ME",
+  "summary": "",
+  "license": "Apache-2.0",
+  "source": "",
+  "project_page": "",
+  "issues_url": "",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "windows",
+      "operatingsystemrelease": [
+        "2012 R2",
+        "2016"
+      ]
+    }
+  ],
+  "requirements": [],
+  "dependencies": []
+}
